@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
 public class BookManager {
-    static Book[] books=new Book[20];
+    Book[] books=new Book[20];
     public void addNewBook(int index){
         if (books[index]==null){
-        books[index]=new Book();}
+        books[index]=new Book();
+        books[index].setInformation();}
     }
     public void editBookByIndex(int index){
         if (books[index]==null){

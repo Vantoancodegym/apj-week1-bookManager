@@ -31,10 +31,10 @@ public class Main {
                     bookManager.editBookByIndex(index1);
                     break;
                 case 3:
-                    System.out.println(bookManager.getMaxPrice());
+                    System.out.println("Max price is" +bookManager.getMaxPrice());
                     break;
                 case 4:
-                    System.out.println(bookManager.getSumPrice());
+                    System.out.println("sum is "+bookManager.getSumPrice());
                     break;
                 case 0:
                     System.exit(0);
