@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class BookManager {
     static Book[] books=new Book[20];
     public void addNewBook(int index){
-        books[index]=new Book();
+        if (books[index]==null){
+        books[index]=new Book();}
     }
     public void editBookByIndex(int index){
         if (books[index]==null){
