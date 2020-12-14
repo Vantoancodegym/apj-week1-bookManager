@@ -8,11 +8,11 @@ public class Book {
     double weight;
     public void setInformation(){
         Scanner input= new Scanner(System.in);
-        System.out.println("input nam of book");
+        System.out.println("input name of book");
         name=input.nextLine();
         System.out.println("input author of book");
         author=input.nextLine();
-        System.out.println("input pice");
+        System.out.println("input price");
         price=input.nextInt();
         System.out.println("input amount");
         amount=input.nextInt();
