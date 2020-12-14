@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         BookManager bookManager = new BookManager();
@@ -15,12 +14,7 @@ public class Main {
             choice = input.nextInt();
             switch (choice){
                 case 1:
-                    int index;
-                    do {
-                        System.out.println("input position in array books");
-                        index = input.nextInt();
-                    }while (index<0||index>=20);
-                    bookManager.addNewBook(index);
+                    bookManager.addNewBook();
                     break;
                 case 2:
                     int index1;
